@@ -37,8 +37,10 @@ class ParentWindow(Frame):
 
    
 if __name__ == '__main__':
+    FinalDrill_Func.create_db()
     root = Tk()
     App = ParentWindow(root)
     root.mainloop()
+   
 
 
